@@ -92,3 +92,15 @@ Object-Orientated Programming
 SOLID
 Inversion of Control
 Dependency Injection
+
+4. NFC与RFID
+   第一、NFC将非接触读卡器、非接触卡和点对点功能整合进一块单芯片，
+   而rfid必须有阅读器和标签组成。
+   RFID只能实现信息的读取以及判定，而NFC技术则强调的是信息交互。
+   通俗的说NFC就是RFID的演进版本，双方可以近距离交换信息。
+   NFC手机内置NFC芯片，组成RFID模块的一部分，可以当作RFID无源标签使用进行支付费用；
+   也可以当作RFID读写器，用作数据交换与采集，还可以进行NFC手机之间的数据通信。
+   
+   NFC的最大数据传输量 424 kbit/s 远小于 Bluetooth V2.1 (2.1 Mbit/s)。
+   虽然NFC在传输速度与距离比不上蓝牙 (小于 20 cm)，但相应可以减少不必要的干扰。
+   这让NFC特别适用于设备密集而传输变得困难的时候。
